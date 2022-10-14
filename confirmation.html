@@ -3,6 +3,24 @@
 <head>
 	
 <script> dataLayer = [{   'toto': 'confirmation',    }];</script>
+
+<script>
+dataLayer.push({ ecommerce: null });
+dataLayer.push({
+  'ecommerce': {
+    'currencyCode': 'EUR',
+    'impressions': [
+     {
+       'name': 'Maillot Rennes',
+       'id': '12345',
+       'prix': '90',
+       'marque': 'Puma',
+       'Taille': 'M',
+       'position': 1
+     }]
+  }
+});
+</script>
 	
 	
   <meta charset="utf-8">
